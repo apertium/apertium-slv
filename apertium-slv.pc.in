@@ -1,0 +1,9 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-slv
+srcdir=@datarootdir@/apertium/apertium-slv
+
+Name: apertium-slv
+Description: Finite-state morphological transducer for Italian
+Version: @VERSION@

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="slv-morph">
+  <mode name="slv-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="slv.automorf.bin"/>
@@ -8,7 +8,7 @@
     </pipeline>
   </mode>
 
-  <mode name="slv-disam">
+  <mode name="slv-disam" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="slv.automorf.bin"/>
@@ -30,7 +30,7 @@
     </pipeline>
   </mode>
 
-  <mode name="slv-tagger">
+  <mode name="slv-tagger" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="slv.automorf.bin"/>
@@ -44,7 +44,7 @@
     </pipeline>
   </mode>
 
-  <mode name="slv-gener">
+  <mode name="slv-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="slv.autogen.bin"/>

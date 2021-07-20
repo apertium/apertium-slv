@@ -17,3 +17,12 @@
 /slv.automorf.bin
 /slv.autopgen.bin
 /slv.rlx.bin
+/*.hfst
+/*.zhfst
+/.DS_Store
+/*.mode
+/*-*.prob
+/.deps
+/config.in
+/config
+/test/*-output.txt
